@@ -12,6 +12,8 @@ Esta API permite gestionar usuarios, con funcionalidades para crear, listar, act
 ## Despliegue
 LINK https://hojadetrabajo6.onrender.com
 
+NOTA: Para listar usuarios debe colocar /usuarios
+
 ## AUTOR
 Rudy Orlando López López
 9490-21-5628
