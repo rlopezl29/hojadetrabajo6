@@ -167,3 +167,6 @@ Authorization: Bearer <token>
 {
   "message": "Usuario eliminado con éxito"
 }
+
+## AUTOR
+# Rudy Orlando López López 9490-21-5628
