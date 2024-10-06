@@ -84,8 +84,8 @@ Authorization: Bearer <token>
 [
   {
     "DPI": "123456789",
-    "nombre": "Juan Pérez",
-    "correo": "juan.perez@example.com"
+    "nombre": "ejemplo",
+    "correo": "ejemplo@ejemplo.com"
   }
 ]
 
@@ -103,9 +103,9 @@ Este endpoint permite registrar un nuevo usuario.
 
 {
   "DPI": "987654321",
-  "nombre": "María López",
-  "correo": "maria.lopez@example.com",
-  "contraseña": "password123"
+  "nombre": "ejemplo",
+  "correo": "ejemplo@ejemplo.com",
+  "contraseña": "ejemplo123"
 }
 
 **Response body (JSON):**
@@ -113,9 +113,9 @@ Este endpoint permite registrar un nuevo usuario.
 {
   "message": "Usuario creado con éxito",
   "usuario": {
-    "DPI": "987654321",
-    "nombre": "María López",
-    "correo": "maria.lopez@example.com"
+  "DPI": "987654321",
+  "nombre": "ejemplo",
+  "correo": "ejemplo@ejemplo.com"
   }
 }
 
@@ -136,9 +136,10 @@ Authorization: Bearer <token>
 **Request body (JSON):**
 
 {
-  "nombre": "María González",
-  "correo": "maria.gonzalez@example.com",
-  "contraseña": "newpassword123"
+  "DPI": "987654321",
+  "nombre": "ejemplo",
+  "correo": "ejemplo@ejemplo.com",
+  "contraseña": "ejemplo123"
 }
 
 **Response body (JSON):**
@@ -166,27 +167,3 @@ Authorization: Bearer <token>
 {
   "message": "Usuario eliminado con éxito"
 }
-
----
-
-## Instrucciones para desplegar en Render
-
-Si deseas desplegar la API en Render, sigue estos pasos:
-
-1. **Crear cuenta en Render:**  
-Dirígete a [Render](https://render.com) y crea una cuenta o inicia sesión.
-
-2. **Conectar el repositorio de GitHub:**  
-Conecta tu repositorio de GitHub con Render.
-
-3. **Configurar variables de entorno:**  
-En Render, configura las mismas variables de entorno que tienes en el archivo `.env`.
-
-4. **Desplegar la API:**  
-Una vez configurado todo, Render desplegará automáticamente tu API.
-
-## Link del Repositorio en GitHub
-
-Este es el link de tu repositorio en la rama `jwt`:
-
-https://github.com/rlopezl29/hojadetrabajo6/tree/jwt
