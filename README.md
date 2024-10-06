@@ -26,8 +26,8 @@ npm install
 
 Crea un archivo `.env` en la raíz del proyecto con las siguientes variables de entorno:
 
-JWT_SECRET=mi_clave_secreta  
-JWT_EXPIRATION=30s  
+CLAVE=hojadetrabajo7
+TIEMPO=30s
 PORT=3030
 
 Puedes ajustar el valor de `JWT_EXPIRATION` y el `PORT` según lo necesites.
