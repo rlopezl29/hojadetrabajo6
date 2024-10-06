@@ -26,11 +26,11 @@ npm install
 
 Crea un archivo `.env` en la raíz del proyecto con las siguientes variables de entorno:
 
-JWT_SECRET=mi_clave_secreta  
-JWT_EXPIRATION=30s  
+CLAVE=hojadetrabajo7  
+TIEMPO=30s  
 PORT=3030
 
-Puedes ajustar el valor de `JWT_EXPIRATION` y el `PORT` según lo necesites.
+Puedes ajustar el valor de `TIEMPO` y el `PORT` según lo necesites.
 
 5. **Ejecutar la API localmente:**
 
@@ -40,11 +40,7 @@ La API estará corriendo en `http://localhost:3030`.
 
 ## URL de la API desplegada en Render
 
-(Nota: Debes desplegar tu API en Render o en otra plataforma como Heroku si aún no lo has hecho).
-
-Ejemplo de URL de la API en Render:
-
-https://nombre-de-tu-api-en-render.onrender.com
+https://hojadetrabajo7.onrender.com
 
 ## Descripción de los Endpoints
 
