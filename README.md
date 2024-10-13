@@ -169,6 +169,15 @@ Authorization: Bearer <token>
 }
 
 ---
+### 6. VERIFICACION EN POSTMAN
+Para realizar las pruebas por ejemplo en POSTMAN debe introduccir las siguientes modificaciones:
+
+**HEDEARS**
+**KEY:** `Authorization`  
+**VALUE:** Bearer 'TOKEN GENERADO'
+
+Es indispensable que en Value se coloque la palabra reservada Bearer + espacio + TOKEN
+
 ## AUTOR
 Rudy Orlando López López
 9490-21-5628
